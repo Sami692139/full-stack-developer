@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+
+
+body {
+  font-family: Myriad Hebrew;
+  font-weight: 700;
+}
+/* giving heeare title and footer color */
+.bluBG {
+  background-color: #085070;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+.banner {
+  width: 100%;
+}
+/* giving the all image height and width and making imges are on a cover  */
+.image-contener {
+  height: 310px;
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 320px;
+}
+/* overriding the second secton image's height and width  */
+.image-contener-1 {
+  height: 310px;
+   width: 302px;
+}
+/* adding the image's as an a background */
+.puppy-1 {
+  background-image: url("../images/puppy-1.jpg");
+}
+.missing-puppy {
+  display: none;
+}
+.puppy-2 {
+  background-image: url("../images/puppy-2.jpg");
+}
+
+.puppy-3 {
+  background-image: url("../images/puppy-3.jpg");
+}
+.puppy-4 {
+  background-image: url("../images/puppy-4.jpg");
+}
+/* making the div margin */
+.first-section div,
+.secon-section div {
+  margin: 10px auto;
+}
+/* all p elenetes text align center */
+p {
+  margin: 10px;
+  text-align: center;
+}
+/* ********************************************* */
+/*  Add a media queries breakpoint at 768px */
+/* ********************************************* */
+/* bracking point */
+@media (min-width: 768px) {
+  .puppies-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .bluBG {
+    padding: 10px 0;
+  }
+  p {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .puppy-1,
+  .puppy-2 {
+    width: 33%;
+  }
+  .missing-puppy {
+    display: inline-block;
+    width: 33%;
+    font-size: 56px;
+    padding-top: 62px;
+    text-align: center;
+    background-color: #ee4d65;
+    font-style: italic;
+  }
+  .secon-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  .puppy-3,
+  .puppy-4 {
+    width: 367px;
+    height: 424px;
+  }
+  .footer {
+    padding: 25px 0;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+}

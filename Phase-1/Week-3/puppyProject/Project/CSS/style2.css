@@ -1,0 +1,104 @@
+img {
+  max-width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* new css trial */
+/* insall  */
+*img {
+  max-width: 100%;
+}
+
+/* making the header part */
+
+.blueBG {
+  background-color: #085070;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* headrt text changing color,font-siz,font-family and font weight */
+
+.header {
+  background-color: #fed751;
+  margin: 0px 125px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.fixed-cont {
+  margin-top: -5px;
+}
+/* making the second section picture display flex */
+.puppies-section {
+  display: flex;
+  padding-top: 84px;
+  background-color: #fed751;
+  padding-bottom: 62px;
+  justify-content: space-between;
+  width: 33%;
+}
+/* to make the contenor to midel */
+.fixed-cont .puppies-section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.missing-warper {
+  font-size: 38px;
+  padding-top: 79px;
+  padding-bottom: 145px;
+  text-align: center;
+  background-color: #ee4d65;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* more pappy */
+.more-puppies {
+  text-align: center;
+
+  margin-left: 278px;
+  margin-right: 278px;
+}
+.more-puppi-div {
+  background-color: #c5c3c3;
+  padding-bottom: 16px;
+  padding-top: 25px;
+  font-size: 25px;
+  
+}
+/* puppies section 2 */
+.puppies-section-2 {
+  display: flex;
+  padding-top: 75px;
+  margin: 0 250px;
+  padding-bottom: 78px;
+  background-color: #fed751;
+  margin-left: 276px;
+  margin-right: 278px;
+}
+.vertical-puppy-1 {
+  margin-right: 75px;
+}
+.vertical-puppy-2 {
+  margin-left: 20px;
+}
+.blueBG-footer {
+  background-color: #085070;
+}
+.footer-div {
+  margin: -23px 125px;
+
+  padding-top: 100px;
+  padding-bottom: 125px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  background-color: #c5c3c3;
+}
