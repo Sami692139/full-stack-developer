@@ -7,7 +7,6 @@ img {
   width: 100%;
 }
 
-
 body {
   font-family: Myriad Hebrew;
   font-weight: 700;
@@ -17,24 +16,25 @@ body {
   background-color: #085070;
   color: white;
   text-align: center;
-  font-size: 12px;
+  font-size: .75rem;
 }
 .banner {
   width: 100%;
 }
 /* giving the all image height and width and making imges are on a cover  */
 .image-contener {
-  height: 310px;
-  background-size: initial;
+  height: 19.375rem;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 320px;
+  background-position: center;    
+  padding: 0 5%;
+  width:90% ;
 }
 /* overriding the second secton image's height and width  */
-.image-contener-1 {
-  height: 310px;
-   width: 302px;
-}
+/* .image-contener-1 {
+  height: 19.375rem;
+  width: 90%;
+} */
 /* adding the image's as an a background */
 .puppy-1 {
   background-image: url("../images/puppy-1.jpg");
@@ -55,7 +55,7 @@ body {
 /* making the div margin */
 .first-section div,
 .secon-section div {
-  margin: 10px auto;
+  margin: 1.6rem auto;
 }
 /* all p elenetes text align center */
 p {
@@ -69,33 +69,39 @@ p {
 @media (min-width: 768px) {
   .puppies-section {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 26px;
-    padding-bottom: 26px;
-    width: 100%;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+    padding-bottom: 1.625rem;
+    width: 90%;
     margin: 0 auto;
   }
-  
   .bluBG {
-    padding: 10px 0;
+    padding: 1.6rem 0;
   }
   p {
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 1.6rem;
+    font-weight: 300;
   }
   .puppy-1,
   .puppy-2 {
     width: 33%;
   }
   .missing-puppy {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 33%;
-    font-size: 56px;
-    padding-top: 62px;
+    font-size: 2.5rem;    
     text-align: center;
     background-color: #ee4d65;
     font-style: italic;
   }
+  .missing-puppy h2{
+    width: 70%;
+    font-size: 5vw;
+   
+      }
+
   .secon-section {
     display: flex;
     justify-content: space-evenly;
@@ -103,12 +109,13 @@ p {
   }
   .puppy-3,
   .puppy-4 {
-    width: 367px;
-    height: 424px;
+    width: 48%;
+    height: 423px;
+      
   }
   .footer {
-    padding: 25px 0;
-    margin-top: 15px;
-    font-size: 20px;
+    padding: 1.562rem 0;
+    margin-top: 0.93rem;
+    font-size: 1.25rem;
   }
 }

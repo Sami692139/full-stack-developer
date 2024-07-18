@@ -40,7 +40,7 @@ img {
   padding: 4px 0;
   border-bottom: 1px solid #4b4b4b;
 }
-/* body section */
+/* My css starting here body section */
 
 .internal-wrapper ul li {
   display: inline-block;
@@ -50,11 +50,11 @@ img {
   font-size: 0.65em;
 }
 .mackpro {
-  font-size: 36px;
+  font-size: 1.875rem;
   font-weight: 700;
 }
 .bright {
-  font-size: 1.5em;
+  font-size: 1.25rem;
 }
 .internal-wrapper ul li a:hover {
   color: black;
@@ -63,7 +63,7 @@ img {
 .internal-wrapper ul li a::after {
   font-family: "fontawesome";
   content: "\f105";
-  padding-left: 10px;
+  padding-left: 0.5rem;
   font-weight: 900;
 }
 .all-side-wrapper {
@@ -83,11 +83,11 @@ img {
   background-image: url(../images/home/iphone11-pro-bg.jpg);
 }
 .iphon11-pro {
-  font-size: 1emx;
+  font-size:1rem ;
   color: #fff;
 }
 .pro {
-  font-size: 15px;
+  font-size: 13px;
   color: #fff;
 }
 .trade {
@@ -107,7 +107,7 @@ img {
 }
 .learnmore,
 .buy {
-  font-size: 10px;
+  font-size: 16px;
 }
 .watch {
   /* width: 45px; */
@@ -116,28 +116,31 @@ img {
 }
 .retina {
   max-width: 430px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 2px;
 }
-.retina1 {
+/* .retina1 {
   max-width: 430px;
   margin: 0 auto;
   padding: 10px;
-}
+} */
 .Always-On {
-  margin: 0 auto;
-  font-size: 15px;
+  /* margin: 0 auto; */
+  font-size: 13px;
+}
+.never {
+  font-size: 12px;
 }
 
 .like-this {
-  font-size: 15px;
+  font-size: 12px;
   margin: 0 auto;
 }
 .left-side-wrapper-4 {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: initial;
   background-position: bottom;
-  height: 390px;
+  height: 411px;
 }
 
 .right-side-wrapper-4 {
@@ -145,13 +148,13 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  /* width: 48.5%; */
-  height: 358px;
+
+  height: 320px;
 }
 
 /* 5th Section */
 .servant {
-  padding: 108px 0 113px;
+  padding: 108px 0 80px;
 }
 .trailer a:hover {
   text-decoration: none;
@@ -159,7 +162,7 @@ img {
 .trailer a::after {
   font-family: "fontawesome";
   content: "\f144";
-  padding-left: 10px;
+  padding-left: 0.5rem;
   font-weight: 900;
 }
 
@@ -168,14 +171,14 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 358px;
+  height: 320px;
 }
 .right-side-wrapper-5 {
   background-image: url("../images/home/air-pods.jpg");
-  background-size: contain;
+  background-size: initial;
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 358px;
+  height: 486px;
   background-color: rgba(0, 0, 0);
   color: #fff;
   margin: 1% 1% 0% 0.5%;
@@ -204,11 +207,14 @@ img {
   font-size: 35px;
 }
 .ipad {
-  padding-top: 20px;
+  padding-top: 10px;
+}
+.unlike {
+  font-size: 12px;
 }
 .left-side-wrapper-6 {
   background-image: url("../images/home/mac-laptop.jpg");
-  height: 358px;
+  height: 330px;
   background-size: contain;
   background-color: #fafafa;
   background-position: bottom;
@@ -220,7 +226,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 358px;
+  height: 320px;
   margin: 1% 1% 0% 0.5%;
 }
 /* Footer Styling */
@@ -287,6 +293,86 @@ img {
   color: #515154;
 }
 
+/* *************
+***************
+******my media querry starting *************
+**********************************************/
+@media (min-width: 768px) {
+  .left-side-wrapper-4 {
+    height: 502px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    /* width: 48.5%; */
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 23px;
+    
+  }
+  .servant {
+    padding: 144px 0 180px;
+  }
+  .right-side-wrapper-4 {
+    height: 502px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    /* width: 48.5%; */
+    margin: 1% 1% 0% 0.5%;
+    padding-top: 23px;
+  }
+  .left-side-wrapper-5 {
+    height: 502px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    /* width: 48.5%; */
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 2px;
+  }
+  .right-side-wrapper-5 {
+    height: 502px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    /* width: 48.5%; */
+    margin: 1% 1% 0% 0.5%;
+    padding-top: 17px;
+  }
+  .left-side-wrapper-6 {
+    background-size: contain;
+    background-color: #fafafa;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 502px;
+    /* width: 48.5%; */
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 26px;
+  }
+  .right-side-wrapper-6 {
+    height: 502px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     margin: 1% 1% 0% 0.5%;
+    padding-top: 23px;
+  }
+  .model1 {
+    font-size: 0.85em;
+  }
+  .mackpro1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .bright1 {
+    /* padding: 1px; */
+    margin: 0 auto;
+    max-width: 430px;
+  }
+  .appletv {
+    padding: 5px 0;
+  }
+}
+
 /*************************
 *********************
 *********Media Query*/
@@ -334,91 +420,5 @@ img {
   }
   .footer-links-terms {
     margin-top: 10px;
-  }
-}
-/* *************
-***************
-******my media querry starting *************
-**********************************************/
-@media (min-width: 768px) {
-  .forth-section,
-  .fithe-section,
-  .sixth-section {
-    display: flex;
-    justify-content: space-between;
-  }
-  .left-side-wrapper {
-    height: 502px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: initial;
-    width: 48.5%;
-    margin: 1% 0.5% 0% 1%;
-    padding-top: 23px;
-  }
-  .servant {
-    padding: 144px 0 180px;
-  }
-  .right-side-wrapper {
-    height: 502px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: initial;
-    width: 48.5%;
-    margin: 1% 1% 0% 0.5%;
-    padding-top: 23px;
-  }
-  .left-side-wrapper-5 {
-    height: 502px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: initial;
-    width: 48.5%;
-    margin: 1% 0.5% 0% 1%;
-    padding-top: 2px;
-  }
-  .right-side-wrapper-5 {
-    height: 502px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: initial;
-    width: 48.5%;
-    margin: 1% 1% 0% 0.5%;
-    padding-top: 17px;
-  }
-  .left-side-wrapper-6 {
-    background-size: contain;
-    background-color: #fafafa;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    height: 502px;
-    width: 48.5%;
-    margin: 1% 0.5% 0% 1%;
-    /* padding-top: 71px; */
-    height: 502px;
-  }
-  .right-side-wrapper-6 {
-    height: 502px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 48.5%;
-    margin: 1% 1% 0% 0.5%;
-    padding-top: 23px;
-  }
-  .model1 {
-    font-size: 0.85em;
-  }
-  .mackpro1 {
-    font-size: 32px;
-    font-weight: 700;
-  }
-  .bright1 {
-    /* padding: 1px; */
-    margin: 0 auto;
-    max-width: 430px;
-  }
-  .appletv {
-    padding: 5px 0;
   }
 }
