@@ -93,12 +93,7 @@ img {
   text-decoration: none;
   color: #06c;
 }
-.all-section-links-wrapper ul li a::after {
-  font-family: "fontawesome";
-  content: "\f105";
-  padding-left: 10px;
-  font-weight: 900;
-}
+
 .all-section-ul li a::after {
   font-family: "fontawesome";
   content: "\f105";
@@ -262,7 +257,6 @@ img {
   /* text-align: center;
   padding: 55px 0; */
 }
-
 
 .left-internal-wrapper-7 .right-side-wrapper-7 {
   width: 48.5%;
