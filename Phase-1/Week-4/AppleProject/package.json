@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mime-type": "^5.0.0",
+    "mime-types": "^2.1.35"
+  }
+}
