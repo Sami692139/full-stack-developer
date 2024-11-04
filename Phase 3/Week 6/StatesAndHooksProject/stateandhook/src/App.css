@@ -1,0 +1,27 @@
+* {
+  margin: 5%;
+  padding: 5;
+}
+
+body {
+  background-color: #deeff2;
+  font-family: 'Poppins', sans-serif;
+}
+.all{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+p{
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .all {
+    max-width: 440px;
+    grid-template-columns: 1fr;
+  }

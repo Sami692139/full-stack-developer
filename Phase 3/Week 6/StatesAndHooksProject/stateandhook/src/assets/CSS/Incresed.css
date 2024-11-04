@@ -1,0 +1,17 @@
+.Inc{
+      width: 100%;
+  
+  margin: 18px auto;
+   border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.5s;
+  height: 200px;
+  box-shadow: rgba(67, 222, 59, 0.2) 0px 7px 29px 0px;
+  display:inline;
+  background-color: yellow;
+}
+button{
+  
+  display: inline;
+  
+}

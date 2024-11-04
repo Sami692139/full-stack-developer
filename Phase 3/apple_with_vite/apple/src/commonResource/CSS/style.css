@@ -1,0 +1,386 @@
+/* first making the page padding and margin to 0  */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* defining the image tag maximum width */
+img {
+  max-width: 100%;
+}
+/* changing the first header back ground and padding */
+.first-header {
+  background-color: black;
+  padding: 1px;
+}
+
+/* styling the ancher tage on header  */
+.first-header .first-contener .link-wrapper ul li a {
+  color: #d9d2d2;
+  text-decoration: none;
+  opacity: 0.8;
+}
+/* the first header div element  */
+.first-contener {
+  margin: 0px auto;
+  width: 980px;
+  padding: 0px 10px;
+  font-weight: 200;
+  font-size: 0.75em;
+}
+/* changing display element and spasing betwen them */
+.first-header ul {
+  display: flex;
+  justify-content: space-between;
+  /* -webkit-box-pack: justify; */
+  list-style: none;
+}
+
+/* making the link text color blurred using opacity to 0.8 */
+.link-wrapper ul li {
+  /* display: inline-block; */
+  padding: 14px 0 8px;
+  /* height: 25px; */
+}
+/* making the link text boled when its pointed on the link by using opacity to 1 */
+.first-contener .link-wrapper ul li a:hover {
+  opacity: 1;
+}
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+}
+
+/* second section css */
+/* changeing the second section back ground , text alignment and padding */
+.second-section {
+  background: #fafafa;
+  text-align: center;
+  padding: 25px 0;
+}
+.model {
+  font-size: 0.85em;
+ 
+}
+.mackpro {
+  font-weight: 700;
+  font-size: 56px;
+}
+.brightest {
+  font-size: 2em;
+  padding: 2px 0 5px;
+}
+/* creationg inharting elements ********
+*******************************************
+***************************************** */
+.all-section ul li a {
+  text-decoration: none;
+  color: #06c;
+}
+.all-section-links-wrapper {
+  padding: 15px 0;
+}
+
+.all-section-links-wrapper ul li a:hover {
+  color: black;
+}
+.all-section-ul li a {
+  text-decoration: none;
+  color: #06c;
+}
+
+.all-section-ul li a::after {
+  font-family: "fontawesome";
+  content: "\f105";
+  padding-left: 10px;
+  font-weight: 900;
+}
+/* .all-section-ul {
+  list-style: none;
+} */
+
+.all-section-links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+/* Third Section CSS */
+/* making the main contenor change not using imge tage we use inserting images by css url  */
+.third-section {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+
+  padding: 65px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
+  text-align: center;
+  color: #fff;
+}
+
+.iphone11 {
+  font-weight: 700;
+  font-size: 56px;
+}
+.procamera {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.pricelist {
+  color: #86868b;
+  font-size: 0.85em;
+}
+
+/* Fourth */
+.fourth-section {
+  background-image: url("../images/home/iphone11-bg.jpg");
+
+  padding: 65px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
+  text-align: center;
+  color: #fff;
+}
+.iphone11-2 {
+  font-weight: 700;
+  font-size: 56px;
+  color: black;
+}
+.procamera-2 {
+  font-size: 26px;
+  padding: 10px 0;
+  color: black;
+}
+/* 5th section */
+.fifth-section,
+.six-section,
+.seven-section {
+  display: flex;
+}
+.left-side-wrapper-6,
+.left-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+}
+
+.left-side-wrapper {
+  background-image: url("../images/home/watch-series-5.jpg");
+}
+
+.right-side-wrapper {
+  background-image: url("../images/home/apple-card.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+.left-text {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.right-text {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+/* six-section */
+
+.left-side-wrapper-6 {
+  background-image: url("../images/home/apple-tv-background.jpg");
+}
+.servant-logo {
+  margin-top: 150px;
+}
+/* right side of section 6 */
+.right-side-wrapper-6 {
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+.top-icon .watch-6 a {
+  text-decoration: none;
+  font-size: 0.85em;
+  display: flex;
+  justify-content: center;
+  padding-top: 219px;
+}
+.top-icon .watch-6 a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+
+/* seventh section part of css */
+.seven-section {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.seven-section .left-side-wrapper-7 {
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom; 
+  background-repeat: no-repeat;
+  height: 580px;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+
+  /* text-align: center;
+  padding: 55px 0; */
+}
+
+.left-internal-wrapper-7 .right-side-wrapper-7 {
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+  background-position: bottom;
+  background-color: #fafafa;
+  height: 580px;
+  text-align: center;
+  margin: 1% 1% 0% 0.5%;
+  background-repeat: no-repeat;
+}
+
+/* .imge-7 {
+  width: 475.3px;
+  padding: 25px 110px 0px;
+} */
+.mackpro2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.brigthest2 {
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 430px;
+}
+/* rights side of seven section */
+.seven-section .right-side-wrapper-7 {
+  background-image: url("../images/home/new-ipad.jpg");
+}
+.right-side-wrapper-7 {
+  width: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+.seven-section-ul li {
+  display: inline;
+  padding-right: 20px;
+}
+/* footer section CSS */
+.footer-link-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: 0.65em;
+}
+.internal-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.footer-link-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.footer-link-wrapper ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.footer-link-wrapper a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-link-wrapper a:hover {
+  text-decoration: underline;
+}
+.text-wrapper {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+}
+/* the all link wrappers */
+.link-wrapper-1,
+.link-wrapper-2,
+.link-wrapper-3,
+.link-wrapper-4,
+.link-wrapper-5 {
+  padding-top: 15px;
+}
+
+.midel-h3 {
+  padding: 18px 0 5px;
+}
+/* footer */
+.copyright-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+.footer-links-terms ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+.footer-links-terms ul {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+.footer-links-terms ul li a {
+  text-decoration: none;
+}
+.footer-links-terms ul li a:hover {
+  text-decoration: underline;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: top;
+}
+.apple-wrapper {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}

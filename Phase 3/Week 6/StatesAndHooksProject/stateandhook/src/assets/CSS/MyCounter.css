@@ -1,0 +1,24 @@
+.mycount{
+   width: 100%;
+  max-width: 370px;
+  margin: 18px auto;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.5s;
+  height: 200px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #04581d;
+  color: aliceblue;
+
+}
+.clickeme{
+    padding: 10px;
+    margin-left: 35% ;
+}
+.clickeme:hover{
+    transform: scale(1.007);
+  cursor: pointer;
+  color: rgb(232, 9, 169);
+  background-color: aquamarine;
+}

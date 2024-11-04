@@ -4,6 +4,6 @@ function myMultiplier(x){
 
 }
 let g = myMultiplier(8);
-console.log(`the out put myfirst result ${g}`);
+console.log(`the out put of myfirst result ${g}`);
 module.exports.myMultiplier = myMultiplier;
 

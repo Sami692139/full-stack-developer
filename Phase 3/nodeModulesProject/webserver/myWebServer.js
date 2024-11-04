@@ -1,12 +1,15 @@
+//!  Ekm methode
+
 
 // const randnum = require("./randomNumber");
-// let x= randnum.random();
+
 
 // const http = require('http');
 
-// const myServer = http.createServer(function(req , res){
+// const myServer = http.createServer((req , res)=>{
+//   let randemResult = randnum.random();
 //          res.writeHead(200);
-//          res.end(`Request received and processed! ${x}`);
+//          res.end(`Request received and processed! ${randemResult}`);
 // });
 
 // myServer.listen(1234, ()=>{
@@ -31,20 +34,24 @@ e. Now, modify your listener function in a way that it serves any of the pages i
 of your "static" folder when requested
 */
 
-var http = require("http");
-var fs = require("fs");
-var url = require("url");
-var mimeTypes = require("mime-types");
+var http = require("http");//importing the module
+var fs = require("fs");// including the file system
+var url = require("url");// including url
+var mimeTypes = require("mime-types");// "npm i mime-types" : to install the modules for using "lookup" 
 var mimeTypeLookUp = mimeTypes.lookup;
-var myServer = http.createServer(function (req, res) {
-  var parsedUrl = url.parse(req.url, true);
+var myServer = http.createServer(function (req, res) {// crating sever
+  var parsedUrl = url.parse(req.url, true);// to chang url as an object
+  //console.log(parsedUrl);
   var parsedURLsPath = parsedUrl.pathname;
   if (parsedURLsPath == "/") {
-    parsedURLsPath = "/about.html";
+    parsedURLsPath = "/index.html";
   }
+    if (parsedURLsPath == "/about") {
+      parsedURLsPath = "/about.html";
+    }
   var setMimeOfFileToServe = mimeTypeLookUp(parsedURLsPath);
   var locationOfFileToServe =
-    __dirname + "/static/apple-html-css-replica" + parsedURLsPath;
+  __dirname + "/static/apple-html-css-replica" + parsedURLsPath;
   fs.readFile(locationOfFileToServe, function (err, data) {
     res.writeHead(200, { "content-type": setMimeOfFileToServe });
     res.end(data);
